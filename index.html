@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/logo-white-background.png"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <title>Savoury | Home</title>
+  </head>
+  <body>
+    <!-- HAMBURGER BUTTON -->
+    <div class="hamburger-button"> <!-- menu-btn -->
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <!-- SHOWCASE -->
+
+    <header class="showcase">
+      <div class="img-container">
+        <img src="/images/showcase.jpg" alt="" id="home" />
+      </div>
+      <nav class="main-nav">
+        <ul class="left-nav">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#reservation">Reservation</a></li>
+        </ul>
+        <div class="main-logo">
+          <img src="/images/logo-white-background.png" alt="" />
+          <section class="section1">
+            <h1 class="animate__animated animate__fadeIn">SAVOURY</h1>
+          </section>
+        </div>
+        <ul class="right-nav">
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="#contact-info">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CARDS -->
+
+    <section class="card-container">
+      <div class="card card1">
+        <h3>Hello</h3>
+        <img src="/images/img-02.jpg" alt="" />
+        <p>
+          <i class="fas fa-quote-left"></i>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+          facere<i class="fas fa-quote-right"></i>
+        </p>
+      </div>
+      <hr />
+      <div class="card card2">
+        <p>
+          <i class="fas fa-quote-left"></i>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+          facere
+          <i class="fas fa-quote-right"></i>
+        </p>
+        <img src="/images/img-03.jpg" alt="" />
+        <h3>Hello</h3>
+      </div>
+      <hr id="reservation" />
+    </section>
+
+    <!-- RESERVATION -->
+
+    <section class="form-container">
+      <h2>Make an Online Reservation</h2>
+      <form action="" class="inner-form-container">
+        <div class="top-form">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            required
+          />
+          <select id="persons" name="persons" required>
+            <option value="persons">1 Person</option>
+            <option value="persons" selected>2 Persons</option>
+            <option value="persons">3 Persons</option>
+            <option value="persons">4 Persons</option>
+            <option value="persons">5 Persons</option>
+            <option value="persons">6 Persons</option>
+            <option value="persons">7 Persons</option>
+            <option value="persons">8 Persons</option>
+            <option value="persons">9 Persons</option>
+            <option value="persons">10 Persons</option>
+            <option value="persons">11 Persons</option>
+            <option value="persons">12 Persons</option>
+          </select>
+        </div>
+        <div class="middle-form">
+          <input type="tel" placeholder="Phone Number" required />
+          <input type="date" min="2020-09-02" required />
+        </div>
+        <div class="bottom-form">
+          <input type="email" placeholder="E-mail address" required />
+          <input
+            type="time"
+            name="time"
+            min="18:00:00"
+            max="22:00:00"
+            required
+          />
+        </div>
+        <input type="submit" id="submit" value="Reserve a Table" />
+      </form>
+    </section>
+
+    <!-- PHONE APP -->
+
+    <section class="mobile-app-container">
+      <hr />
+      <div class="inner-mobile-app">
+        <div class="mobile-text">
+          <h3>Download Our App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aut
+            fugiat perspiciatis quibusdam eveniet excepturi quisquam
+            necessitatibus repellendus?
+          </p>
+          <a href="#"><i class="fab fa-app-store-ios fa-3x"></i></a>
+          <a href="#"><i class="fab fa-android fa-3x"></i></a>
+        </div>
+        <div class="mobile-image">
+          <img src="/images/smartmockup.jpg" alt="" />
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- SHOWCASE 2 -->
+
+    <section class="showcase2-container">
+      <div class="showcase2-image">
+        <img src="/images/img-01.jpg" alt="" />
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+          consequatur
+        </h2>
+      </div>
+      <hr />
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <div class="newsletter">
+      <form action="" class="newsletter-form2">
+        <h3>Subscribe to our Newsletter</h3>
+        <input
+          type="email"
+          class="newsletter-email"
+          required
+          placeholder="Enter E-mail Address"
+        />
+        <input type="submit" id="submit" value="Subscribe" />
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="footer-container">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+      <div class="main-logo-footer">
+        <img src="/images/logo-white-background.png" alt="" />
+        <div class="savoury"><h4>SAVOURY</h4></div>
+      </div>
+      <div class="inner-footer-container">
+        <div class="footer-item" id="about-us">
+          <h4>ABOUT US</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
+            voluptatem corrupti sunt aperiam.
+          </p>
+        </div>
+        <div class="footer-item" id="contact-info">
+          <h4>CONTACT INFO</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i>1234 Altschul, New York, NY
+            10027-0000
+          </p>
+          <p>
+            <i class="fas fa-phone"></i>
+            +1 987 654 3210
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            admin@domain.com
+          </p>
+        </div>
+        <div class="footer-item">
+          <h4>OPENING HOURS</h4>
+          <h6>MON-THU</h6>
+          <p>10:00 AM - 11:00 PM</p>
+          <h6>FRI-SUN</h6>
+          <p>12:00 AM - 03:00 AM</p>
+        </div>
+      </div>
+    </footer>
+    <div class="top-page">
+      <a href="#">Back to Top</a>
+    </div>
+    <div class="copyright-container">
+      <p>&copy 2020 SAVOURY. All rights reserved.</p>
+    </div>
+    <script>
+      document.querySelector('.hamburger-button').addEventListener('click', () => document.querySelector('.left-nav').classList.toggle('show'));
+      document.querySelector('.hamburger-button').addEventListener('click', () => document.querySelector('.right-nav').classList.toggle('show'));
+    </script>
+  </body>
+</html>
